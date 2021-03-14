@@ -1,0 +1,428 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth !important;
+}
+
+.wrapper {
+	width: 100%;
+	height: 800px;
+	display: grid;
+	justify-content: center;
+	background: url(../1.jpg);
+	background-size: 100% 100%;
+}
+.box {
+	width: 1000px;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	margin-top: 20px;
+	background: white;
+	border-radius: 5px;
+	border-top: 5px solid silver;
+}
+nav a {
+	text-decoration: none;
+}
+.logo{
+	width: 35%;
+	height: 50px;
+	display: flex;
+}
+.logo img {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.logo h2{
+	color: black;
+}
+.logo p {
+	color: silver;
+	font-size: 11px;
+	margin-left: 7px;
+}
+.menu{
+	width: 65%;
+	height: 50px;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+	height: 50px;
+	align-items: center;
+}
+nav ul li{
+	height: 20px;
+	list-style-type: none;
+	transition: 0.1s;
+}
+nav ul li a{
+	color: #008B8B;
+}
+.menu .img_search {
+	height: unset;
+	border: transparent;
+	transition: 0.2s;
+}
+.img_search a{
+	transition: 0.2s;
+}
+.img_search a:hover{
+	border-bottom: 3px solid #00FFFF;
+}
+nav ul li img {
+	width: 30px;
+	height: 30px;
+	background: lightblue;
+	border-radius: 50%;
+	border: 0px;
+}
+nav ul li:hover {
+	border-bottom: 3px solid #00FFFF;
+}
+.home:hover{
+	border-bottom: 3px solid blue;
+}
+.home{
+	border-bottom: 3px solid blue;
+}
+.home a {
+	color: black;
+}
+header {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	align-items: center;
+}
+header div{
+	width: 40%;
+	font-size: 20px;
+	color: white;
+}
+section {
+	width: 100%;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+.box1 {
+	width: 300px;
+	height: 300px;
+}
+.read {
+	width: 150px;
+	height: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	background: #2F3A3E;
+	transition: 0.7s;
+}
+.read a{
+	text-decoration: none;
+	color: white;
+}
+.read:hover{
+	background: lightblue;
+}
+.img{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background: url(https://vktrans.net/wp-content/uploads/mezhdunarodnye-avtomobilnye-perevozki.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.img1{
+	background: url(https://www.capital.ua/uploads/news/2020/11/19/59d05a237d19879ab86f265b14231407600f6b69.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.img2{
+	background: url(https://thumbs.dreamstime.com/b/%D1%81%D0%B0%D0%BC%D0%BE-%D0%B5%D1%82-%D0%BD%D0%B0-%D0%B3%D0%BE%D1%80%D0%BE-%D0%BE%D0%BC-%D1%81%D1%86%D0%B5%D0%BD%D1%8B-%D0%BD%D0%BE%D1%87%D0%B8-79534719.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.text {
+	width: 100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+.text p{
+	color: silver;
+}
+.text1{
+	width: 90%;
+}
+.button{
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 100%;
+ 	height: 79px;
+}
+button{
+	width: 150px;
+	height: 40px;
+	background: gold;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+button:hover{
+	background: yellow;
+}
+.more{
+	width: 100%;
+	height: 500px;
+}
+.more1{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.more_hr {
+	width: 30%;
+	margin: auto;
+}
+.more_2{
+	width: 30%;
+	text-align: center;
+	font-size: 14px;
+	color: silver;
+}
+.more_2 h2{
+	font-size: 40px;
+	color: black;
+}
+.more_3{
+	width: 100%;
+	height: 350px;
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+.img_1{
+	width: 70px;
+	height: 70px;
+}
+.mores{
+	width: 400px;
+	height: 130px;
+	display: flex;
+	align-items: center;
+}
+.mores p {
+	color: silver;
+}
+.models {
+	width: 100%;
+	height: 255px;
+}
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	clear: both;
+	background: black;
+}
+.cont {
+	margin-top: 15px;
+	color: white;
+}
+@media (max-width: 1000px) {
+	.box{
+		width: 100%;
+	}
+	.box1{
+		width: 240px;
+	}
+	.mores{
+		width: 360px;
+	}
+	.more_2{
+		font-size: 12px;
+	}
+	.more_2 h2 {
+		font-size: 32px;
+	}
+}
+@media (max-width: 810px) {
+	.wrapper{
+		height: 500px;
+	}
+	.box{
+		width: 100%;
+	}
+	.main{
+		display: block;
+	}
+	.box1{
+		width: 70%;
+		height: 400px;
+		margin: auto;
+	}
+	.mores{
+		width: 360px;
+		margin-bottom: 20px;
+	}
+	.more_2{
+		width: 50%;
+	}
+	.models{
+		height: 850px;
+	}
+	footer{
+		font-size: smaller;
+	}
+}
+@media (max-width: 720px) {
+	.box{
+		width: 100%;
+	}
+	.mores{
+		width: 340px;
+	}
+	.more_2{
+		width: 50%;
+	}
+}
+@media(max-width: 680px) {
+	.wrapper{
+		height: 500px;
+	}
+	.box{
+		width: 100%;
+	}
+	.box1{
+		margin: auto;
+	}
+	.mores{
+		width: 340px;
+		height: auto;
+		grid-column: none;
+		display: grid;
+		text-align: center;
+	}
+	.img_1{
+		margin: auto;
+	}
+	.more_2{
+		width: 50%;
+	}
+	.more_3{
+		width: 100%;
+		height: 350px;
+		display: grid;
+		justify-content: center;
+		grid-template-columns: auto auto;
+		align-items: center;
+	}
+	.menu{
+		font-size: 13px;
+	}
+	.text{
+		font-size: 13px;
+	}
+	.models{
+		height: 1025px;
+	}
+	footer{
+		font-size: small;
+	}
+}
+@media(max-width: 510px){
+	.wrapper{
+		height: 400px;
+	}
+	nav{
+		height: 80px;
+	}
+	.logo{
+		width: 42%;
+		margin-top: 18px;
+	}
+	.logo div{
+		font-size: 14px;
+	}
+	.logo p{
+		font-size: 10px;
+		margin-left: 5px;
+	}
+	.menu{
+		font-size: 12px;
+		width: 55%;
+	}
+	.menu ul{
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+	nav ul li {
+		text-align: center;
+	}
+	.models{
+		height: 820px;
+	}
+	.box1{
+		height: 250px;
+	}
+	.box1 .img{
+		width: 80%;
+		height: 50%;
+		margin: auto;
+	}
+	.box1 .text{
+		width: 80%;
+		margin: auto;
+		font-size: 12px;
+	}
+	.mores{
+		width: 290px;
+	}
+	header{
+		height: 250px;
+	}
+	header div{
+		font-size: 14px;
+	}
+	.logo img{
+		margin-left: unset;
+		margin-top: unset;
+	}
+	.logo div{
+		font-size: 11px;
+	}
+	.logo p{
+		font-size: 9px;
+		margin-left: 2px;
+	}
+	.more_2{
+		font-size: 10px;
+	}
+	.more_2 h2{
+		font-size: 25px;
+	}
+	footer{
+		font-size: 8px;
+	}
+}
